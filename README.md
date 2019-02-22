@@ -15,7 +15,7 @@ Lots of examples helped in making this:
 
 On Posix platforms:
 
-mkdir build && cd build && cmake .. && make
+mkdir build && cd build && cmake -DCMAKE_INSTALL_PREFIX=. .. && make
 
 Windows would have some slightly different steps.
 

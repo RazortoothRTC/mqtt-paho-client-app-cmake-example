@@ -17,7 +17,7 @@ include(ExternalProject)
 ExternalProject_Add(
   pahomqttc
   GIT_REPOSITORY https://github.com/eclipse/paho.mqtt.c.git
-  GIT_SHALLOW 1
+  # GIT_SHALLOW 1
   GIT_TAG v1.3.0 
   CMAKE_ARGS -DCMAKE_PREFIX_PATH=${CMAKE_INSTALL_PREFIX}} -DCMAKE_BUILD_TYPE=${CMAKE_BUILD_TYPE} -DCMAKE_INSTALL_PREFIX=<INSTALL_DIR>
   UPDATE_COMMAND ""
